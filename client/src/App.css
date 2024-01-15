@@ -1,0 +1,106 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.button {
+  padding: 0.5em;
+  font-size: 1.5em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.activeColor {
+  padding-top: 5px;
+  height: 30px;
+  width: 50%;
+  border: 2px solid grey;
+  cursor: pointer;
+}
+
+.pointer {
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+.movie-list {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.movie-item {
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie-item img {
+  width: 50%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.movie-details {
+  text-align: center;
+}
+
+.movie-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.like-button {
+  background-color: #2ecc71;
+  margin: 0.1em;
+}
+
+.dislike-button {
+  background-color: #dc143c;
+  margin: 0.1em;
+}
